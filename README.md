@@ -1,4 +1,7 @@
 # Cycle_GAN
-Implementation Cycle-GAN from scratch using PyTorch
+Постарался реадизовать архитектуру Cycle-GAN с нуля, используя фреймворк PyTorch.
 
-All desciptions are in .ipynb file.
+## Финальная версия 
+В финальной версии были использованы 2 датасета(клоны/штурмовики и дарт вейдер). Реализация представлена в файле cyclegan_torch_final_v.ipynb.
+Веса дискриминаторов в файлах: D_A.pt, D_B.pt.
+Веса генераторов не удалось загрузить в силу их большого размера.
